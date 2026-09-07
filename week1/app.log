@@ -1,0 +1,8 @@
+INFO: Application started
+INFO: User logged in
+ERROR: Database connection failed
+INFO: Processing request
+ERROR: File not found
+INFO: Request completed
+ERROR: Invalid customer data
+INFO: Application stopped
