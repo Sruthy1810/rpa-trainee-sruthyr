@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INFO: Application started
 INFO: User logged in
 ERROR: Database connection failed
@@ -6,3 +7,6 @@ ERROR: File not found
 INFO: Request completed
 ERROR: Invalid customer data
 INFO: Application stopped
+=======
+
+>>>>>>> 9dc725f57afa89f05564320d3d97cb8d417652ac
