@@ -1,2 +1,2 @@
 Day 1
-RPA --> RPA stands for Robotic Process Automation.As per the name suggest it automates the repetative tasks.RPA's motive is not to replace the human work it mimic the human activities for the repetative tasks.Uses bot to do the repetative task instead of doing human manually.
+RPA --> RPA stands for Robotic Process Automation.As per the name suggest it is used to automates the repetative tasks.RPA's motive is not to replace the human workers it is to mimic the human actions and the repetative tasks.RPA uses the Software bot to do the repetative task instead of doing human manually.It helps to save time,human errors and improve the efficiency.
