@@ -43,3 +43,33 @@
 2026-09-08 16:28:05,752 - INFO - Error lines written successfully
 2026-09-08 16:28:05,752 - INFO - Bot runned successfully
 2026-09-08 16:28:05,752 - INFO - Processing completed
+2026-09-09 11:56:51,528 - INFO - Starting the logging process
+2026-09-09 11:56:51,528 - INFO - Input file read successfully
+2026-09-09 11:56:51,529 - INFO - Error lines found: 1 Error Lines
+2026-09-09 11:56:51,529 - INFO - Error lines found: 2 Error Lines
+2026-09-09 11:56:51,529 - INFO - Error lines found: 3 Error Lines
+2026-09-09 11:56:51,530 - INFO - Error lines written successfully
+2026-09-09 11:56:51,530 - INFO - Bot runned successfully
+2026-09-09 11:56:51,530 - INFO - Processing completed
+2026-09-09 12:31:47,545 - INFO - workbook created successfully
+2026-09-09 12:31:47,546 - INFO - Doughnut chart created successfully
+2026-09-09 12:31:47,546 - INFO - Doughnut chart added to the sheet successfully
+2026-09-09 12:50:26,878 - INFO - workbook created successfully
+2026-09-09 12:50:26,891 - INFO - Doughnut chart created successfully
+2026-09-09 12:50:26,892 - INFO - Doughnut chart added to the sheet successfully
+2026-09-09 12:54:39,932 - INFO - workbook created successfully
+2026-09-09 12:54:39,933 - INFO - Doughnut chart created successfully
+2026-09-09 12:54:39,934 - INFO - Doughnut chart added to the sheet successfully
+2026-09-09 12:54:39,934 - INFO - Mail handler created successfully
+2026-09-09 12:55:22,654 - INFO - workbook created successfully
+2026-09-09 12:55:22,655 - INFO - Doughnut chart created successfully
+2026-09-09 12:55:22,655 - INFO - Doughnut chart added to the sheet successfully
+2026-09-09 12:55:22,655 - INFO - Mail handler created successfully
+2026-09-09 16:27:42,555 - INFO - Starting the logging process
+2026-09-09 16:27:42,556 - INFO - Input file read successfully
+2026-09-09 16:27:42,556 - INFO - Error lines found: 1 Error Lines
+2026-09-09 16:27:42,556 - INFO - Error lines found: 2 Error Lines
+2026-09-09 16:27:42,556 - INFO - Error lines found: 3 Error Lines
+2026-09-09 16:27:42,557 - INFO - Error lines written successfully
+2026-09-09 16:27:42,557 - INFO - Bot runned successfully
+2026-09-09 16:27:42,557 - INFO - Processing completed
