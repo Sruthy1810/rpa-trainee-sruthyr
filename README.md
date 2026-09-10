@@ -10,3 +10,5 @@ Learn: Classes/objects, __init__, methods, why bots are usually structured as cl
 Hands-on: Build a Logger utility class that writes timestamped logs to both console and a .log file. Reuse it in Day 1's script.
 Deliverable: week1/logger_utils.py
 
+
+
