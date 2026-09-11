@@ -24,4 +24,8 @@ Learn: Cell styling (fonts, fills, borders), formulas, multiple sheets, merging 
 Hands-on: Read invoices.xlsx, filter records where Amount > 5000, highlight those rows in yellow, and write a summary sheet (Total, Count, Average).
 Deliverable: week1/day4_excel_report.py
 
+Day 5 — Mini-Project + Week 1 Review    (11-09-2026)
 
+Mini-project: "Excel Consolidator Bot" — merges 3 separate Excel files (simulate 3 regional sales files) into one master workbook, removes duplicates, adds a summary sheet, and logs every step.
+Review checkpoint: Trainer reviews code structure (functions/classes used, error handling, logging present), not just output correctness.
+Deliverable: week1/mini_project_excel_consolidator.py + working log file.
