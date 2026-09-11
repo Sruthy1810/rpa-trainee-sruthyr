@@ -1,0 +1,74 @@
+2026-09-11 14:33:33,613 - INFO - Excel Consolidator Bot started
+2026-09-11 14:33:33,613 - WARNING - File not found: Sales_file1.xlsx
+2026-09-11 14:33:33,613 - WARNING - File not found: Sales_file2.xlsx
+2026-09-11 14:33:33,614 - WARNING - File not found: Sales_file3.xlsx
+2026-09-11 14:33:33,614 - ERROR - Bot failed: No required Excel files found in: C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\sample_data
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\Tasks\mini_project_excel_consolidator.py", line 213, in main
+    files = get_input_files()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\Tasks\mini_project_excel_consolidator.py", line 61, in get_input_files
+    raise FileNotFoundError(
+        f"No required Excel files found in: {INPUT_DIR}"
+    )
+FileNotFoundError: No required Excel files found in: C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\sample_data
+2026-09-11 14:33:33,614 - INFO - Excel Consolidator Bot execution finished
+2026-09-11 14:43:41,678 - INFO - Excel Consolidator Bot started
+2026-09-11 14:43:41,679 - INFO - Found required file: Sales_file1.xlsx
+2026-09-11 14:43:41,679 - INFO - Found required file: Sales_file2.xlsx
+2026-09-11 14:43:41,679 - INFO - Found required file: Sales_file3.xlsx
+2026-09-11 14:43:41,679 - INFO - Found 3 required Excel files
+2026-09-11 14:43:41,679 - INFO - Reading file: Sales_file1.xlsx
+2026-09-11 14:43:41,679 - ERROR - Bot failed: [Errno 13] Permission denied: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\trainee-sruthy\\rpa-trainee-sruthyr\\week1\\sample_data\\Sales_file1.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\Tasks\mini_project_excel_consolidator.py", line 215, in main
+    dataframes = read_excel_files(files)
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\Tasks\mini_project_excel_consolidator.py", line 77, in read_excel_files
+    df = pd.read_excel(file)
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa_env\Lib\site-packages\pandas\io\excel\_base.py", line 481, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa_env\Lib\site-packages\pandas\io\excel\_base.py", line 1604, in __init__
+    ext = inspect_excel_format(
+        content_or_path=path_or_buffer, storage_options=storage_options
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa_env\Lib\site-packages\pandas\io\excel\_base.py", line 1452, in inspect_excel_format
+    with get_handle(
+         ~~~~~~~~~~^
+        content_or_path, "rb", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handle:
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa_env\Lib\site-packages\pandas\io\common.py", line 939, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\trainee-sruthy\\rpa-trainee-sruthyr\\week1\\sample_data\\Sales_file1.xlsx'
+2026-09-11 14:43:41,682 - INFO - Excel Consolidator Bot execution finished
+
+2026-09-11 14:44:58,691 - INFO - Excel Consolidator Bot started
+2026-09-11 14:44:58,691 - INFO - Found required file: Sales_file1.xlsx
+2026-09-11 14:44:58,691 - INFO - Found required file: Sales_file2.xlsx
+2026-09-11 14:44:58,691 - INFO - Found required file: Sales_file3.xlsx
+2026-09-11 14:44:58,691 - INFO - Found 3 required Excel files
+2026-09-11 14:44:58,691 - INFO - Reading file: Sales_file1.xlsx
+2026-09-11 14:44:58,725 - INFO - Reading file: Sales_file2.xlsx
+2026-09-11 14:44:58,751 - INFO - Reading file: Sales_file3.xlsx
+2026-09-11 14:44:58,809 - INFO - Duplicate records removed: 6
+2026-09-11 14:44:58,913 - INFO - Master workbook created: C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\Tasks\output\master_sales.xlsx
+2026-09-11 14:44:58,988 - INFO - Excel formatting completed
+2026-09-11 14:44:58,988 - INFO - Excel Consolidator Bot completed successfully
+2026-09-11 14:44:58,988 - INFO - Excel Consolidator Bot execution finished
+2026-09-11 14:46:05,110 - INFO - Excel Consolidator Bot started
+2026-09-11 14:46:05,111 - INFO - Found required file: Sales_file1.xlsx
+2026-09-11 14:46:05,111 - INFO - Found required file: Sales_file2.xlsx
+2026-09-11 14:46:05,111 - INFO - Found required file: Sales_file3.xlsx
+2026-09-11 14:46:05,111 - INFO - Found 3 required Excel files
+2026-09-11 14:46:05,111 - INFO - Reading file: Sales_file1.xlsx
+2026-09-11 14:46:05,136 - INFO - Reading file: Sales_file2.xlsx
+2026-09-11 14:46:05,141 - INFO - Reading file: Sales_file3.xlsx
+2026-09-11 14:46:05,146 - INFO - Duplicate records removed: 9
+2026-09-11 14:46:05,204 - INFO - Master workbook created: C:\Users\Admin\OneDrive - StayAhead\Documents\trainee-sruthy\rpa-trainee-sruthyr\week1\Tasks\output\master_sales.xlsx
+2026-09-11 14:46:05,260 - INFO - Excel formatting completed
+2026-09-11 14:46:05,260 - INFO - Excel Consolidator Bot completed successfully
+2026-09-11 14:46:05,260 - INFO - Excel Consolidator Bot execution finished
