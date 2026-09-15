@@ -1,5 +1,7 @@
 # rpa-trainee-sruthyr
 
+                                                                              WEEK -> 1   
+
 Day 1 — RPA Concepts + Python Refresher (07-09-2026)
 
 Learn: What is RPA, where it's used, attended vs unattended bots, typical bot lifecycle (input → process → action → output → log). Python refresher: functions, f-strings, exception handling (try/except/finally), file I/O.
@@ -29,3 +31,12 @@ Day 5 — Mini-Project + Week 1 Review    (11-09-2026)
 Mini-project: "Excel Consolidator Bot" — merges 3 separate Excel files (simulate 3 regional sales files) into one master workbook, removes duplicates, adds a summary sheet, and logs every step.
 Review checkpoint: Trainer reviews code structure (functions/classes used, error handling, logging present), not just output correctness.
 Deliverable: week1/mini_project_excel_consolidator.py + working log file.
+
+
+                                                                            WEEK -> 2  
+
+Day 6 - PyAutoGUI Basics    (14-09-2026)
+
+Learn: Mouse movement/clicks, keyboard input (typewrite, hotkey), screen coordinates, pyautogui.FAILSAFE, taking screenshots.
+Hands-on: Write a script that opens Notepad, types a paragraph, and saves the file — purely with coordinate/keyboard commands.
+Deliverable: week2/day6_notepad_pyautogui.py
