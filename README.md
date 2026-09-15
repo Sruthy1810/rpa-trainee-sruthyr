@@ -40,3 +40,11 @@ Day 6 - PyAutoGUI Basics    (14-09-2026)
 Learn: Mouse movement/clicks, keyboard input (typewrite, hotkey), screen coordinates, pyautogui.FAILSAFE, taking screenshots.
 Hands-on: Write a script that opens Notepad, types a paragraph, and saves the file — purely with coordinate/keyboard commands.
 Deliverable: week2/day6_notepad_pyautogui.py
+
+Day 7 — Image-Based Automation    (15-09-2026)
+
+Learn: locateOnScreen, locateCenterOnScreen, why coordinate-based automation breaks on different screens/resolutions, confidence thresholds (needs opencv-python).
+Hands-on: Automate opening the Windows Calculator and performing a calculation by locating buttons via image matching instead of fixed coordinates.
+Deliverable: week2/day7_calculator_image_automation.py + button image assets folder.
+
+
